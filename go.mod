@@ -1,0 +1,5 @@
+module github.com/erhemdi/belajar_redis_pubsub_notif
+
+go 1.18
+
+require github.com/gomodule/redigo v1.8.8
