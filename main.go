@@ -11,9 +11,10 @@ import (
 )
 
 const (
-	address         = "localhost:6379"
-	patternTestKey  = "__keyspace*:test_key_*"
-	patternDummyKey = "__keyspace*:dummy_key_*"
+	address             = "localhost:6379"
+	patternTestKey      = "__keyspace*:test_key_*"
+	patternDummyKey     = "__keyspace*:dummy_key_*"
+	patternExpiredEvent = "__keyevent*:expired"
 )
 
 type SubscribeCallback func(pattern string, channel string, message string)

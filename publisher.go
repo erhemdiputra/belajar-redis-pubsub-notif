@@ -10,7 +10,7 @@ const (
 	testKey  = "test_key_123"
 	dummyKey = "dummy_key_123"
 	dummyVal = "true"
-	duration = 10
+	duration = 5
 )
 
 func initPublisher() error {
